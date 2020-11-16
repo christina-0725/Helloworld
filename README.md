@@ -8,4 +8,4 @@ I can import tensorflow in Juypter notebook which was installed in Anaconda.
 But in Vscode Juypter extension, when I input "import tensorflow as tf", the ModuleNotFoundError will occur.
 ![Image of Vscode](https://github.com/christina-0725/Helloworld/blob/main/1.PNG)
 
-This problem also happened in my mac. I don't know why this happens. I hope someone can help me solve this question. Thanks!
+This problem also happened on my mac. I don't know why this happens. I hope someone can help me solve this question. Thanks!
