@@ -1,6 +1,6 @@
 Issue Type: <b>Bug</b>
 
-# <VScode> Jupter extension - No module named 'tensorflow'
+# <VScode> Juypter extension - No module named 'tensorflow'
 I used Anaconda to create a virtual environment with module tensorflow.
 ![Image of virtual environment](https://github.com/christina-0725/Helloworld/blob/main/3.PNG)
 
