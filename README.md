@@ -1,20 +1,29 @@
-Issue Type: <b>Bug</b>
+# <VScode> How to slove No module named 'tensorflow' in Jupyter extension
+1. I used Anaconda to create a virtual environment with module tensorflow.
+ 
+<img src="https://github.com/christina-0725/Helloworld/blob/main/3.PNG">
 
-# <VScode> Jupyter extension - No module named 'tensorflow'
-I used Anaconda to create a virtual environment with module tensorflow.
-![Image of virtual environment](https://github.com/christina-0725/Helloworld/blob/main/3.PNG)
-
-I can import tensorflow in Juypter notebook which was installed in Anaconda. 
+2. I can import tensorflow in Juypter notebook which was installed in Anaconda. 
 ![Image of Juypter notebook](https://github.com/christina-0725/Helloworld/blob/main/2.PNG)
 
-I can also import tensorflow in VScode Python extension.
+3. I can also import tensorflow in VScode Python extension.
 ![Image of VScode Python extension](https://github.com/christina-0725/Helloworld/blob/main/4.PNG)
 
- But in VScode Juypter extension, when I input "import tensorflow as tf", the ModuleNotFoundError will occur.
+4. But in VScode Juypter extension, when I input "import tensorflow as tf", the ModuleNotFoundError will occur.
 ![Image of Vscode Juypter extension](https://github.com/christina-0725/Helloworld/blob/main/1.PNG)
 
+***
+5. A few days later I try to launch VScode from Anaconda and I successfully run the program under the "tensorflow" virtual enviroment.
 
-This problem also happened on my mac. I don't know why this happens. I hope someone can help me solve this question. Thanks!
+<img src="https://github.com/christina-0725/VScode-Juypter-extension-bug/blob/main/5.PNG">
+
+But it also reminds me as follow:
+
+```TypeScript
+StdErr from ShellExec, Did not find path entry C:\ProgramData\Anaconda3\bin for C:/ProgramData/Anaconda3/Scripts/activate && conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python c:\Users\kh\.vscode\extensions\ms-python.python-2020.11.358366026\pythonFiles\pyvsc-run-isolated.py c:/Users/kh/.vscode/extensions/ms-python.python-2020.11.358366026/pythonFiles/printEnvVariables.py
+```
+
+I hope someone can help me solve this porblem. Thanks!
 
 Extension version: 2020.11.358541065
 VS Code version: Code 1.51.1 (e5a624b788d92b8d34d1392e4c4d9789406efe8f, 2020-11-10T23:34:32.027Z)
