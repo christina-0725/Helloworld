@@ -1,4 +1,4 @@
-# <VScode> Bug: StdErr from ShellExec, Did not find path entry in VScode Jupyter repo
+# <VScode> Bug: StdErr from ShellExec, Did not find path entry in VScode Jupyter extension
 1. I used Anaconda to create a virtual environment with module tensorflow.
  
 <img src="https://github.com/christina-0725/Helloworld/blob/main/3.PNG">
