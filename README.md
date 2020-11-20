@@ -1,4 +1,4 @@
-# <VScode> Bug:No module named 'tensorflow' in Jupyter extension
+# <VScode> Bug: StdErr from ShellExec, Did not find path entry in VScode Jupyter repo
 1. I used Anaconda to create a virtual environment with module tensorflow.
  
 <img src="https://github.com/christina-0725/Helloworld/blob/main/3.PNG">
@@ -17,8 +17,10 @@ And it also reminds me as follow:
 ```TypeScript
 StdErr from ShellExec, Did not find path entry C:\ProgramData\Anaconda3\bin for C:/ProgramData/Anaconda3/Scripts/activate && conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python c:\Users\kh\.vscode\extensions\ms-python.python-2020.11.358366026\pythonFiles\pyvsc-run-isolated.py c:/Users/kh/.vscode/extensions/ms-python.python-2020.11.358366026/pythonFiles/printEnvVariables.py
 ```
-
+And the program didn't run.
 I hope someone can help me solve this porblem. Thanks!
+
+[For more details](https://github.com/microsoft/vscode-jupyter/issues/3922#event-4018015875)
 
 Extension version: 2020.11.358541065
 VS Code version: Code 1.51.1 (e5a624b788d92b8d34d1392e4c4d9789406efe8f, 2020-11-10T23:34:32.027Z)
