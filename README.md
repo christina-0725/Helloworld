@@ -1,4 +1,4 @@
-# <VScode> How to slove No module named 'tensorflow' in Jupyter extension
+# <VScode> Bug:No module named 'tensorflow' in Jupyter extension
 1. I used Anaconda to create a virtual environment with module tensorflow.
  
 <img src="https://github.com/christina-0725/Helloworld/blob/main/3.PNG">
@@ -12,12 +12,7 @@
 4. But in VScode Juypter extension, when I input "import tensorflow as tf", the ModuleNotFoundError will occur.
 ![Image of Vscode Juypter extension](https://github.com/christina-0725/Helloworld/blob/main/1.PNG)
 
-***
-5. A few days later I try to launch VScode from Anaconda and I successfully run the program under the "tensorflow" virtual enviroment.
-
-<img src="https://github.com/christina-0725/VScode-Juypter-extension-bug/blob/main/5.PNG">
-
-But it also reminds me as follow:
+And it also reminds me as follow:
 
 ```TypeScript
 StdErr from ShellExec, Did not find path entry C:\ProgramData\Anaconda3\bin for C:/ProgramData/Anaconda3/Scripts/activate && conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python c:\Users\kh\.vscode\extensions\ms-python.python-2020.11.358366026\pythonFiles\pyvsc-run-isolated.py c:/Users/kh/.vscode/extensions/ms-python.python-2020.11.358366026/pythonFiles/printEnvVariables.py
